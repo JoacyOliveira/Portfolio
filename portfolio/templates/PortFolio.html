@@ -1,0 +1,225 @@
+{% load static %}
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Joacy Oliveira</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap-portfolio.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="{% static 'css/portfolio.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="/index.html">&lt;/&gt;</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#projetos">Projetos</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#cv">CV</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#contatarme">Contatar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="cv" class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col" data-aos="slide-right" data-aos-duration="500" data-aos-once="true" style="padding: 2px;padding-top: 20px;height: 318px;">
+                        <div data-bs-hover-animate="pulse" class="avatar" style="width: 256px;height: 270px;background-image: url({% static 'img/joacy.jpg' %});"></div>
+                        <h2 style="font-size: 22px;font-family: Lato, sans-serif;">Back-end Developer</h2>
+                    </div>
+                    <div class="col" style="padding-right: 0px;padding-left: 0px;">
+                        <div data-aos="slide-left" data-aos-duration="500" data-aos-once="true" class="contact-info portfolio-info-card" style="height: 412px;">
+                            <h2>Informações De Contato</h2>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-android-calendar icon" style="color: #1c92d2;"></i></div>
+                                <div class="col-9"><span>01/02/2002</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-person icon" style="color: #1c92d2;"></i></div>
+                                <div class="col-9"><span>Joacy Oliveira Da Silva Júnior</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-ios-telephone icon" style="color: #1c92d2;"></i></div>
+                                <div class="col-9"><span>+(55) 83 98710-9437</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-at icon" style="color: #1c92d2;"></i></div>
+                                <div class="col-9"><span>thesoldier100052@gmail.com</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-ios-book icon" style="color: #1c92d2;"></i></div>
+                                <div class="col-9"><span>Analise e Desenvolvimento De Sistemas</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-social-linkedin-outline icon" style="color: #1c92d2;"></i></div>
+                                <div class="col-9"><span><a href="https://www.linkedin.com/in/joacyoliveira/">Joacy Oliveira | LinkedIn</a><br /></span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-social-github-outline icon" style="color: #1c92d2;"></i></div>
+                                <div class="col-9"><span><a href="https://gitlab.com/AiZnn">Joacy Oliveira · GitLab</a><br /></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="padding: 0;"><a class="btn btn-primary" role="button" href="https://drive.google.com/u/0/uc?id=1twztvAA9izYHapO5ID2B2Ve4AM9UHWpH&export=download">CV Download</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" data-aos="slide-up" data-aos-duration="600" data-aos-once="true" style="margin-top: 85px;">
+                        <div class="skills portfolio-info-card">
+                            <h2>Skills</h2>
+                            <h3>HTML</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                            </div>
+                            <h3>Django</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
+                            </div>
+                            <h3>Python</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                            </div>
+                            <h3>Git</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                            </div>
+                            <h3>Rasa</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                            </div>
+                            <h3>MySql</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">20%</span></div>
+                            </div>
+                            <h3>Java</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">20%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center" data-aos="slide-up" data-aos-duration="600" data-aos-once="true" style="height: auto;padding-right: 0;padding-bottom: 0;padding-left: 0;">
+                        <div class="avatar" style="background-image: url({% static 'img/software-developer-copy.jpg' %});width: 277px;height: 277px;margin: 0;margin-left: 0;margin-top: 30px;margin-right: 0;margin-bottom: 0;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block website gradient" style="padding-top: 20px;">
+            <h2 class="text-center" style="padding-bottom: 27px;font-size: 41px;">Galeria</h2>
+        </section>
+        <section class="portfolio-block photography" style="margin-top: -106px;background-color: rgba(255,255,255,0);">
+            <div class="container" style="background-color: rgba(255,255,255,0);">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="slide-up" data-aos-duration="500" data-aos-once="true" style="background-color: rgb(255,255,255);"><a href="https://gitlab.com/AiZnn/lightnovels" target="_blank"><img class="img-fluid image" src="{% static 'img/NovelFoto1.png' %}" style="height: 246.5;"></a>
+                        <h2 class="text-center" style="font-size: 25px;color: rgb(255,255,255);">To-Do</h2>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="slide-up" data-aos-duration="500" data-aos-once="true" style="background-color: rgb(255,255,255);"><a href="https://gitlab.com/AiZnn/weather-api-consume" target="_blank"><img class="img-fluid image" src="{% static 'img/wheater_1.png' %}"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="slide-up" data-aos-duration="500" data-aos-once="true"
+                        style="background-color: rgb(255,255,255);"><a href="https://gitlab.com/AiZnn/basic-to-do-django" target="_blank"><img class="img-fluid image" src="{% static 'img/Todo.png' %}"></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2>Outras skills</h2>
+                </div>
+                <!-- End: portfolio heading -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline" data-bs-hover-animate="bounce" style="background-color: #1c92d2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Inteligência Emocional</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-book-outline" data-bs-hover-animate="bounce" style="background-color: #1c92d2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Inglês<br></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline" data-bs-hover-animate="bounce" style="background-color: #1c92d2;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Proativo</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projetos" class="container">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2>Projetos</h2>
+                </div>
+                <!-- End: portfolio heading -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header d-flex justify-content-center bg-transparent border-0"><img class="shadow" src="{% static 'img/NovelFoto1.png' %}" style="width: 350px;height: 204px;max-width: 350px;max-height: 204px;"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Book Library</h3><a class="btn btn-primary" role="button" href="https://gitlab.com/AiZnn/lightnovels" style="background-color: #1c92d2;">Ver mais</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header d-flex justify-content-center bg-transparent border-0"><img class="shadow" src="{% static 'img/wheater_1.png' %}" style="width: 350px;height: 204px;max-width: 350px;max-height: 204px;"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Weather App</h3><a class="btn btn-primary" role="button" href="https://gitlab.com/AiZnn/weather-api-consume" style="background-color: #1c92d2;">Ver mais</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header d-flex justify-content-center bg-transparent border-0"><img class="shadow" src="{% static 'img/Todo.png' %}" style="width: 350px;height: 204px;max-width: 350px;max-height: 204px;"></div>
+                            <div class="card-body">
+                                <h3 class="card-title">To-Do</h3><a class="btn btn-primary" role="button" href="https://gitlab.com/AiZnn/basic-to-do-django" style="background-color: #1c92d2;">Ver mais</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contatarme" class="container" style="margin-top: 60px;">
+                <div class="heading" style="margin-bottom: 43px;">
+                    <h2 style="font-size: 32px;font-family: Alef, sans-serif;">Contatar-me</h2>
+                </div>
+                <form class="shadow">
+                    <div class="form-group"><label for="email">Email</label><input class="form-control" type="email" id="email"></div>
+                    <div class="form-group"><label for="message">Mensagem</label><textarea class="form-control" id="message"></textarea></div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col"><button class="btn btn-primary btn-block" type="submit" style="background-color: #1c92d2;">Contatar</button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links">
+                <h5>&lt;/&gt; Desenvolvido por {Joacy Oliveira}</h5>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="{% static 'js/portfolio.js' %}"></script>
+</body>
+
+</html>
